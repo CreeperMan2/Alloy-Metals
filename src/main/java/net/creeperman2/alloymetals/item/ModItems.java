@@ -12,7 +12,7 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
     //items
     public static final Item ZINC_INGOT = registerItem("zinc_ingot",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(AlloyMetals.MOD_ID, name), item);
