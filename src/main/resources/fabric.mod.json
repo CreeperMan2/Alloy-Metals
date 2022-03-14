@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "alloymetals",
+  "version": "${version}",
+
+  "name": "Alloy Metals",
+  "description": "An Addon For The Mod Alloy Forgery",
+  "authors": [
+    "creeperman2"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.creeperman2.alloymetals.AlloyMetals"
+    ]
+  },
+  "mixins": [
+    "alloymetals.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
