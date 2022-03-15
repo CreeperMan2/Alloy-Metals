@@ -1,6 +1,6 @@
 {
-    "item.alloymetals.zinc_ingot": "Zinc Ingot"
+    "item.alloymetals.zinc_ingot": "Zinc Ingot",
 
 
-    "block.tutorialmod.zinc_block": "Zinc Block"
+    "block.alloymetals.zinc_block": "Zinc Block"
 }
