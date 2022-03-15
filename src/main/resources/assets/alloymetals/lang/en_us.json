@@ -3,5 +3,7 @@
 
 
     "block.alloymetals.zinc_block": "Zinc Block",
-    "block.alloymetals.zinc_ore": "Zinc Ore"
+    "block.alloymetals.zinc_ore": "Zinc Ore",
+
+    "itemGroup.alloymetals.zinc": "Alloy Metals"
 }
