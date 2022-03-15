@@ -14,7 +14,9 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     public static final Block ZINC_BLOCK = registerBlock("zinc_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+    public static final Block ZINC_ORE = registerBlock("zinc_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ItemGroup.BUILDING_BLOCKS);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
