@@ -1,5 +1,6 @@
 package net.creeperman2.alloymetals;
 
+import net.creeperman2.alloymetals.block.ModBlocks;
 import net.creeperman2.alloymetals.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -12,6 +13,6 @@ public class AlloyMetals implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
-
+		ModBlocks.registerModBlocks();
 	}
 }
