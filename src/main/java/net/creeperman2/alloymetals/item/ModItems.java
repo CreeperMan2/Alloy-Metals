@@ -13,6 +13,8 @@ public class ModItems {
     //items
     public static final Item ZINC_INGOT = registerItem("zinc_ingot",
             new Item(new FabricItemSettings().group(ModItemGroup.ZINC)));
+    public static final Item RAW_ZINC = registerItem("raw_zinc",
+            new Item(new FabricItemSettings().group(ModItemGroup.ZINC)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(AlloyMetals.MOD_ID, name), item);

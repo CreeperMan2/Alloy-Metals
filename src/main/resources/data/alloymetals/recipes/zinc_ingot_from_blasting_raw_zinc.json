@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "item": "alloymetals:zinc_ore"
+    "item": "alloymetals:raw_zinc"
   },
   "result": "alloymetals:zinc_ingot",
   "experience": 0.7,
