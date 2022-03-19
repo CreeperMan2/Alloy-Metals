@@ -15,6 +15,8 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.ZINC)));
     public static final Item RAW_ZINC = registerItem("raw_zinc",
             new Item(new FabricItemSettings().group(ModItemGroup.ZINC)));
+    public static final Item PURE_CARBON = registerItem("pure_carbon",
+            new Item(new FabricItemSettings().group(ModItemGroup.ZINC)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(AlloyMetals.MOD_ID, name), item);
