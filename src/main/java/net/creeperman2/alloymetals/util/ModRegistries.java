@@ -13,6 +13,6 @@ public class ModRegistries {
         AlloyMetals.LOGGER.info("fuel registering blah blah");
         FuelRegistry registry = FuelRegistry.INSTANCE;
 
-        registry.add(ModItems.PURE_CARBON, 400);
+        registry.add(ModItems.PURE_CARBON, 1000);
     }
 }
