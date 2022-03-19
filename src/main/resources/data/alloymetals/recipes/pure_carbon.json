@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:coal"
+  },
+  "result": "alloymetals:pure_carbon",
+  "experience": 1,
+  "cookingtime": 480
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##_",
+    "_x_",
+    "_x_"
+  ],
+  "key": {
+    "#": {
+      "item": "alloymetals:zinc_ingot"
+    },
+    "x": {
+      "item": "minecraft:stick"
+    },
+    "_": {
+      "item": "minecraft:air"
+    }
+  },
+  "result": {
+    "item": "alloymetals:zinc_hoe"
+  }
+}
